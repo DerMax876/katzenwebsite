@@ -60,15 +60,39 @@ ul:hover {
 
         width: 100vr;
         height: 50vh;
-        background-image: url("./bilder/hintergrundbild.jpg ");
+        background-image: url("./katzenbilder/hintergrundbild.jpg ");
         
         /*background-image: url("./bilder/WAREShintergrundbild.jpg ");*/
 
     }
     .verstecken{
-    display:none;
+        display:none;
+    }  
+    
+    .showhundewebsite{
+        width: 300px;
+        height: 200px;
+        font-size: 60px;
+        color: green;
+        background-color: rgb(92, 196, 92);
+    }
 
-    }   
+    .showkatzenwebsite{
+        width: 300px;
+        height: 200px;
+        font-size: 60px;
+        color: blue;
+        background-color: blueviolet;
+    }
+
+    .showgiv    {
+        width: 350px;
+        height: 200px;
+        font-size: 60px;
+        color: red;
+        background-color: rgb(175, 4, 4);
+    }
+
     h1, h2, h3, h4, p {
         text-align: center;
     }

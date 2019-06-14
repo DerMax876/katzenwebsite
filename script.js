@@ -76,3 +76,11 @@ function Anzeigen() {
 $(document).ready(function() {
     new Slideshow();
 });
+
+function showhundewebseite() {
+    document.location.href = "./hunde.html"; 
+}
+
+function showkatzenwebseite() {
+    document.location.href = "./index.html"; 
+}
