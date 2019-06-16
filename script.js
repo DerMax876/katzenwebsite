@@ -84,3 +84,7 @@ function showhundewebseite() {
 function showkatzenwebseite() {
     document.location.href = "./index.html"; 
 }
+
+function Anzeigen2() {
+    document.querySelector("#dummerclip").classList.toggle("verstecken")
+}
